@@ -13,7 +13,7 @@
                     
                 <div class="middle-card">
                     <div class="container">
-                        <form class="form-contents">
+                        <div class="form-contents">
                             <h2 class="w3-text-black w3-padding-80">
                                 <p id="title1" class="w3-margin-left">
                                     <i class="fa fa-download fa-fw w3-margin-right w3-xlarge w3-text-black"></i>
@@ -24,13 +24,13 @@
                             <input type="text" id="size" name="size" placeholder="File Size(GB)">
                             <br>
                             <input type="text" id="speed" name="speed" placeholder="Download Speed(MB)" required>
-                            <hr>
+                            <br>
                             <button class="button2" onclick="calculateResult()">Calculate</button>
-                        </form>
+                        </div>
                     </div>
                     <hr>
-                        <p>Approx time: </p>
-                        <p id="result"></p>
+                    <p id="title1">Approx time: </p>
+                    <p id="result" class="result"></p>
                     <br>
                 </div>
             </div>
