@@ -1,0 +1,81 @@
+body{
+    background-color: rebeccapurple;
+}
+
+.w3-container{
+    padding: 80px;
+    background-color: rebeccapurple;
+}
+
+.form-contents{
+    text-align: center;
+    background-color: white;
+}
+
+#size{
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+}
+
+#speed{
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+}
+
+div.middle-card {
+  width: 1185px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color: snow;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px;
+}
+
+.button2 {
+  background-color: #0074D9; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, purple , blue);
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#title1{
+    text-align: center;
+    font-family: cursive;
+    font-style: oblique;
+    font-weight: 500;
+}
+
+.icon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12%;
+}
+
+input[type=text], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: content-box;
+}

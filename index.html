@@ -1,0 +1,38 @@
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+            <div class="w3-container w3-margin-top">
+                    
+                <div class="middle-card">
+                    <div class="container">
+                        <form class="form-contents">
+                            <h2 class="w3-text-black w3-padding-80">
+                                <p id="title1" class="w3-margin-left">
+                                    <i class="fa fa-download fa-fw w3-margin-right w3-xlarge w3-text-black"></i>
+                                    DOWNLOAD SPEED CALCULATOR
+                                </p>
+                            </h2>
+                            <img src="img/download.png" class="icon"><br>
+                            <input type="text" id="size" name="size" placeholder="File Size(GB)">
+                            <br>
+                            <input type="text" id="speed" name="speed" placeholder="Download Speed(MB)" required>
+                            <hr>
+                            <button class="button2" onclick="calculateResult()">Calculate</button>
+                        </form>
+                    </div>
+                    <hr>
+                        <p>Approx time: </p>
+                        <p id="result"></p>
+                    <br>
+                </div>
+            </div>
+    </body>
+</html>
