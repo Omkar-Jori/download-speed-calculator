@@ -2,6 +2,7 @@ function calculateResult()
 {
     var size=document.getElementById("size").value;
     var speed=document.getElementById("speed").value;
+    
     var sizeMB=size*1000;
     var sec=sizeMB/speed;
     
